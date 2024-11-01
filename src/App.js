@@ -18,8 +18,8 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/writepost" element={<WritePost />}></Route>
             <Route path="/post/" element={<Post />}></Route>
-            <Route path="/DetailPost/:id" element={<DetailPost />}></Route>
-            <Route path="/editPost/:id" element={<EditPost />}></Route>
+            <Route path="/detail-post/:id" element={<DetailPost />}></Route>
+            <Route path="/edit-post/:id" element={<EditPost />}></Route>
           </Routes>
         </Layout>
       </Provider>

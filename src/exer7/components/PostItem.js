@@ -7,7 +7,7 @@ export default function PostItem({ id, title }) {
   const dispatch = useDispatch();
   return (
     <div>
-      <Link to={`/DetailPost/${id}`}>
+      <Link to={`/detail-post/${id}`}>
         <span>{title}</span>&nbsp;
       </Link>
       <button onClick={() => dispatch(deletePost(id))}>Delete</button>&nbsp;
