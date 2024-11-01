@@ -11,7 +11,7 @@ export default function PostItem({ id, title }) {
         <span>{title}</span>&nbsp;
       </Link>
       <button onClick={() => dispatch(deletePost(id))}>Delete</button>&nbsp;
-      <Link to={`/editPost/${id}`}>Edit</Link>
+      <Link to={`/edit-post/${id}`}>Edit</Link>
     </div>
   );
 }
